@@ -62,6 +62,37 @@ body {
   font-family: 'Roboto', sans-serif;
   color: white;
 }
+
+h1, h2, h3, h4, h5, h6, ul, ol, p {
+  margin: 1.25% 5% 1.25% 5%;
+  width: 85%
+}
+p, ul, ol {font-size: 16pt; text-align: justify;}
+h1 {font-size: 24pt}
+h2 {font-size: 22pt}
+h3 {font-size: 20pt}
+h4 {font-size: 18pt}
+
+
+/* TEXT IN PARALLAX IMAGE */
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 4vw;
+  border: 10px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 100%);
+  z-index: 2;
+  width: 45vw;
+  padding: 20px;
+  text-align: center;
+}
 </style>
 
 
@@ -72,7 +103,8 @@ body {
 <body>
 <!-- SCROLLING INDICATOR -->
   <div class="header">
-    <h1 style="text-align: center;">Scroll Indicator</h2>
+    <h1 style="text-align: center;font-size:30pt; padding: 10px; width: auto; margin: 0px">ỨNG DỤNG CỦA AI TRONG GIÁO DỤC</h1>
+    <p style="font-size: 12pt;text-align:center; padding: 0px 0px 10px 0px; margin: 0px; width: auto">Nhóm 3 - 10CĐTin3</p>
     <div class="progress-container">
       <div class="progress-bar" id="myBar"></div>
     </div>
@@ -82,58 +114,108 @@ body {
 
   
 <!-- FIRST PARALLAX -->
-  <div class="parallax" style="background-image: url('avatar7.png')"></div>
+<div class="parallax" style="background-image: url('5-ways-ai-is-changing-the-education-industry-1-1024x574.jpg');">
+  <div class="bg-text">VAI TRÒ CỦA AI TRONG GIÁO DỤC</div>
+</div>
 <div>
-<h1>adfjakldjfalksdjflasd</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit magna sem, et rutrum odio porttitor quis. Etiam nec quam eget odio rhoncus venenatis et et neque. Nunc vehicula justo mauris, condimentum facilisis enim tincidunt pellentesque. Praesent ut eleifend magna, non viverra justo. Cras consequat leo ipsum, non suscipit dolor dapibus vel. Nulla facilisi. Duis iaculis eleifend leo ut convallis. Donec feugiat tortor non pretium porttitor. Quisque ac magna eu urna viverra faucibus. Curabitur in purus vitae massa consectetur euismod id pellentesque turpis.
+<p>Trong thập kỉ qua, theo nhiều cách khác nhau AI dần trở nên phổ biến ở khắp mọi nơi trong cuộc sống hàng ngày của chúng ta. Từ các cảm biến đến những chiếc xe tự lái AI đã đem lại những thay đổi đáng kinh ngạc. Không chỉ là những ứng dụng trong các lĩnh vực ngân hàng tài chính, y tế, kinh doanh mà AI còn thể hiện vai trò quan trọng của mình trong lĩnh vực giáo dục. Có thể nói giáo dục là lĩnh vực luôn được ưu tiên hàng đầu ở mỗi quốc gia, vậy AI được ứng dụng như nào trong đó? Hôm nay chúng ta sẽ cùng tìm hiểu nhé!</p> 
+<h2>Tự động hóa các hoạt động giáo dục</h2>
+<p>Ở những trường đại học, cao đẳng việc chấm điểm bài tập về nhà hay các bài kiểm tra của các khóa học có thể là công việc thật nhàm chán. Việc chấm điểm lấy đi một khoảng thời gian đáng kể trong khi thời gian đó có thể được sử dụng để trao đổi với học sinh, chuẩn bị trang bị lớp học hay các công việc khác phục vụ thiết yếu cho học tập. Mặc dù AI không bao giờ thực sự có thể thay thế con người trong công tác chấm điểm nhưng ta có thể hi vọng về một sự thay thế khá gần với sự hoàn hảo. Giờ đây việc chấm điểm các bài thi trắc nghiệm, bài thi điền vào chỗ trống không còn là trường hợp hiếm gặp, việc chấm điểm cho các bài viết cũng sẽ không còn xa vời trong thời gian tới.</p>
+<h2>Phần mềm giáo dục được điều chỉnh theo nhu cầu học sinh</h2>
+<p>Tất cả các cấp bậc học tập với một con người, từ mẫu giáo đến sau đại học, trí thông minh nhân tạo đều tác động đến giáo dục thông qua các mức học tập cá nhân hóa cao hơn. Số lượng chương trình học tập, trò chơi và các phần mềm thích ứng ngày càng tăng. Những hệ thống AI đáp ứng nhu cầu của học sinh, tập trung vào các chủ đề, lặp lại những điều học sinh chưa nắm vững, học sinh có thể học tập với tốc độ của riêng mình.
+  Hình thức giáo dục tùy chỉnh là giải pháp hỗ trợ giúp học sinh ở các cấp độ khác nhau có thể học tập cùng nhau trong một lớp học. Học tập thích ứng có tác dụng lớn đến giáo dục toàn quốc.</p>
+<h2>Phát hiện những điểm cần cải thiện trong các khóa học.</h2>
+<p>Giáo viên nhiều khi có thể chưa nhận thấy được khoảng trống trong các bài giảng và tài liệu giáo dục. Trí tuệ nhân tạo giúp ta giải quyết vấn đề đó. Ta có thể ví dụ với những khóa học trực tuyến, khi một lượng lớn sinh viên gửi đáp án sai cho bài tập về nhà, ngay lập tức hệ thống cảnh báo gửi thông điệp đến giáo viên để tùy chỉnh, cung cấp gợi ý cho câu trả lời đúng.</p>
+<h2>Học sinh có thể được hỗ trợ từ gia sư AI.</h2>
+<p>Tương lai ta sẽ không còn thấy những người dậy kèm bởi một số chương trình dạy kèm đã xuất hiện để giúp học sinh học tập tất cả các môn học. Các chương trình này có thể dạy học sinh những điều cơ bản, tạo điều kiện để phát triển tư duy sáng tạo.</p>
+<h2>AI thay đổi vai trò của giáo viên.</h2>
+<p>AI có thể đảm nhận các nhiệm vụ như chấm điểm, giúp học sinh học tập thậm chí có thể dậy kèm học sinh. Hệ thống AI có thể được lập trình để cung cấp các kiến thức chuyên môn, là nơi để học sinh đặt câu hỏi và tìm kiếm thông tin. Giáo viên sẽ có vai trò của người hỗ trợ khi sinh viên gặp khó khăn, cung cấp sự tương tác giữa người với người.</p>
 
-  Curabitur dapibus, diam nec pulvinar laoreet, elit sapien consectetur dui, et bibendum metus sapien ut est. Praesent ac auctor lorem. Donec auctor ipsum vel mi congue tristique. Aenean at dui id nisl venenatis auctor nec quis metus. Suspendisse vel lectus ipsum. Sed vel enim sed lectus sodales suscipit eu sit amet nisi. Aenean nec mauris vehicula ante egestas molestie eu ut ante. Maecenas et tristique erat, at rhoncus sapien. Praesent vitae lacinia nibh. In molestie mi malesuada tellus sagittis venenatis.
-  
-  Nullam ultrices augue in ullamcorper finibus. Praesent dapibus orci sed venenatis tempus. Cras facilisis, ante eget placerat fermentum, dolor tellus pulvinar elit, in malesuada diam velit ac velit. Morbi sollicitudin ex et mauris ultrices maximus. Aliquam vitae diam hendrerit, ullamcorper massa malesuada, ullamcorper enim. Praesent consectetur lorem maximus ipsum venenatis pharetra. Integer nisl metus, pulvinar eget sagittis in, dapibus sit amet orci.
-  
-  Morbi fringilla dolor ac pellentesque pharetra. Phasellus mi ex, luctus in posuere porta, commodo et eros. Cras vulputate nulla laoreet nunc dictum eleifend. Nunc fermentum ligula urna, sed varius eros egestas id. Duis eu nulla est. Vestibulum rhoncus congue odio posuere interdum. Aliquam mattis interdum nulla a aliquam. Quisque eu sapien at lacus condimentum pellentesque.
-  
-  Nulla at viverra tellus. Mauris vel nisl felis. Suspendisse vestibulum finibus quam, fermentum vehicula urna porttitor a. Donec vitae nunc quis libero vestibulum cursus ut et mi. Sed fringilla tellus et velit pellentesque, eu convallis risus iaculis. In eu congue odio. Nam sed tortor nec ex blandit luctus sed nec nunc. Proin ornare interdum libero, a efficitur lectus. Suspendisse at vehicula mi. Proin nulla velit, tempus eget magna eget, sagittis luctus urna. Nunc est ipsum, tincidunt ac odio vel, ullamcorper vehicula erat.
-  
-  Morbi aliquet porta enim. Vestibulum lacinia maximus sapien, non condimentum nisi placerat eu. Sed at vehicula felis. Aliquam eu elit egestas, hendrerit mauris non, consequat enim. Aliquam sagittis lorem viverra magna gravida blandit. Vivamus non nisl sed risus ornare sodales. Donec efficitur, mauris at ultricies venenatis, dui purus feugiat urna, ac aliquam eros neque nec tortor. Mauris egestas eu arcu vel bibendum. Mauris scelerisque quis urna et maximus. Quisque eu auctor tellus. In dignissim diam eros, eget dapibus ipsum faucibus ut. Etiam viverra placerat enim vel congue.
-  
-  Donec imperdiet odio ac mi tempus, in aliquet ipsum iaculis. Aenean id laoreet arcu, sed euismod lorem. Nullam dignissim elit urna, at volutpat nibh commodo eget. Integer hendrerit augue quis semper bibendum. Ut tortor eros, sagittis vitae lacus vitae, malesuada blandit nisi. Cras pellentesque porta ligula quis elementum. Etiam viverra dignissim velit ut feugiat. Nulla leo ipsum, lobortis non diam placerat, tristique fermentum tellus. Etiam posuere mauris et convallis ullamcorper. Cras id turpis in quam imperdiet elementum. Vestibulum viverra, lacus eu auctor egestas, ante erat viverra nunc, id rutrum libero elit nec nibh. Vivamus scelerisque, nulla ut mattis mollis, sem turpis congue ligula, ac elementum magna metus vitae risus.
-  
-  Nunc tempor et lorem ac bibendum. Pellentesque et neque in arcu eleifend ullamcorper. Curabitur nunc mauris, ultricies varius arcu et, rutrum ornare risus. Fusce ut viverra risus, nec aliquet ligula. Nulla facilisi. Phasellus facilisis nibh laoreet convallis interdum. Mauris posuere tincidunt nulla sed commodo. Vivamus eu tristique arcu, at efficitur magna. Sed accumsan ligula eget facilisis ornare. Cras id ante aliquam, dignissim odio at, sagittis lacus.
-  
-  Donec molestie luctus dui sit amet auctor. In mollis scelerisque quam, ullamcorper tincidunt nulla convallis nec. Quisque velit urna, lacinia ac tellus vehicula, mollis dignissim libero. Donec aliquam nulla massa, quis molestie dui sagittis quis. Vivamus viverra eleifend urna, sed dignissim risus. Suspendisse fringilla ac nunc a rhoncus. Curabitur iaculis tempus orci quis egestas.
-  
-  Maecenas lobortis orci a scelerisque sagittis. Suspendisse malesuada tortor non consequat laoreet. Nulla facilisi. Integer luctus leo id mauris placerat elementum. Etiam nec imperdiet sapien. Vivamus eu neque et sapien mollis fringilla. In suscipit mattis tortor, id commodo nisl suscipit id. Aenean velit tellus, bibendum in eleifend in, ornare a erat. Suspendisse rutrum, arcu consectetur consequat accumsan, nulla mauris rhoncus odio, id aliquet metus nunc id orci.
-  
-  Suspendisse facilisis mollis bibendum. Mauris luctus ligula at luctus auctor. Maecenas in velit hendrerit, gravida lectus nec, ultricies mauris. Pellentesque eu mauris a orci placerat volutpat sit amet non sapien. Duis mauris ex, rhoncus sed tortor ac, euismod vestibulum sapien. Sed sed lacinia purus. Duis cursus diam vitae est mollis, placerat imperdiet urna maximus. Vestibulum pellentesque, lorem eget ornare ultrices, mauris ipsum feugiat erat, vitae sagittis velit orci quis nunc. Integer nec nisl interdum, efficitur urna vel, tincidunt urna. In tempus sollicitudin justo nec tempor. Praesent molestie metus ut nisl eleifend, in porttitor odio euismod.
-  
-  Nunc ultrices ultricies ipsum ut tempor. Cras mollis fermentum justo, eu suscipit augue dignissim ut. Quisque leo enim, suscipit sit amet euismod ac, efficitur ac turpis. Suspendisse potenti. Ut mi arcu, iaculis non sodales vitae, vehicula ut sem. Proin vitae consectetur velit. Suspendisse molestie fermentum turpis, ut finibus metus placerat eu. Nulla euismod lorem iaculis venenatis gravida. Integer non tellus magna. Fusce lacinia sapien at ipsum efficitur elementum.
-  
-  Sed laoreet nunc a odio fringilla consectetur. Phasellus blandit turpis in arcu tincidunt fringilla. Maecenas faucibus diam in iaculis ornare. Vestibulum at sapien urna. Maecenas a lacinia mauris. Nullam laoreet felis arcu, sed scelerisque magna tincidunt id. In tincidunt dolor aliquam leo consequat sodales. Cras rutrum metus at nisi pretium luctus. Sed ullamcorper in nunc nec bibendum. Fusce auctor ullamcorper leo, sit amet egestas lacus sodales in. Sed ut tellus arcu. Nam aliquet ipsum eget enim luctus malesuada. Mauris posuere mattis euismod. Proin vestibulum, ligula vitae maximus lobortis, diam magna iaculis nisi, at varius diam tellus at quam.
-  
-  Fusce eu mattis dolor, ac sollicitudin justo. Nulla tellus lacus, viverra non libero id, auctor tempus ligula. Quisque et velit accumsan, posuere sapien non, condimentum dolor. Proin varius congue eros, et viverra justo suscipit vel. Integer id lacus sed nisl volutpat rutrum at vitae diam. Maecenas id scelerisque metus. Quisque at suscipit dui. Pellentesque hendrerit felis non augue laoreet placerat. Ut neque tortor, cursus id nunc at, mollis dapibus enim. Praesent rutrum aliquet eros, non eleifend nulla accumsan a. Sed pulvinar nisi nec mauris facilisis, at mollis sapien bibendum. Aenean auctor eget nisl eu sodales. Nulla facilisi. Nam vel mauris vitae quam vulputate posuere. Aliquam congue fermentum ipsum sit amet cursus.
-  
-  In consequat, dolor at pellentesque viverra, purus dolor malesuada nisi, quis efficitur mauris leo vitae turpis. Nunc quis accumsan leo, et scelerisque lacus. Pellentesque dictum ex nulla, eget ultricies erat sollicitudin eu. Phasellus feugiat leo eget nibh porttitor eleifend. Sed pretium consequat est eu gravida. Nunc pulvinar sed risus ut venenatis. Cras ipsum quam, semper in leo et, laoreet scelerisque elit. Sed mattis metus erat, suscipit rhoncus dolor molestie sed. Vivamus malesuada ipsum vitae gravida aliquet. Quisque erat nunc, efficitur vitae ex a, egestas tempus enim. Nam mattis lacus eros, non fringilla ex convallis sed. Phasellus nec dignissim erat, non pharetra ipsum. Pellentesque mollis eu mi eu faucibus. Ut ut ante eu turpis bibendum tristique. Maecenas laoreet lectus ligula, at dignissim leo scelerisque nec.</p>
 </div>
 
 
 <!-- SECOND PARALLAX -->
-<div class="parallax" style="background-image: url('Team\ Delta.png')"></div>
+<div class="parallax" style="background-image: url('edu-apps.png')">
+  <div class="bg-text">CÁC PHẦN MỀM GIÁO DỤC</div>
+</div>
 <div>
-  <h1>adfjadkfj</h1>
-  <p>Donec imperdiet odio ac mi tempus, in aliquet ipsum iaculis. Aenean id laoreet arcu, sed euismod lorem. Nullam dignissim elit urna, at volutpat nibh commodo eget. Integer hendrerit augue quis semper bibendum. Ut tortor eros, sagittis vitae lacus vitae, malesuada blandit nisi. Cras pellentesque porta ligula quis elementum. Etiam viverra dignissim velit ut feugiat. Nulla leo ipsum, lobortis non diam placerat, tristique fermentum tellus. Etiam posuere mauris et convallis ullamcorper. Cras id turpis in quam imperdiet elementum. Vestibulum viverra, lacus eu auctor egestas, ante erat viverra nunc, id rutrum libero elit nec nibh. Vivamus scelerisque, nulla ut mattis mollis, sem turpis congue ligula, ac elementum magna metus vitae risus.
+  <p>Chắc hẳn khi nghe đến trí tuệ nhân tạo trong giáo dục nhiều người sẽ nghĩ rằng đó là những thành tựu mang tầm vĩ mô, khổng lồ và con người không dễ tiếp cận.
+    Tuy nhiên những ứng dụng của trí tuệ nhân tạo trong giáo dục luôn được thiết kế để có thể sử dụng một cách dễ dàng, nhất là đối với các em học sinh, sinh viên. Các sản phẩm trí tuệ nhân tạo có thể tùy biến khó hay dễ, đơn giản hay phức tạp tùy thuộc vào khả năng tiếp nhận của các đối tượng hướng đến.</p>
+  <h2>Một số ứng dụng AI dễ tiếp cận như:</h2>
+  <ul>
+    <li><b>Grammarly:</b> Phần mềm kiểm tra lỗi chính tả và ngữ pháp tiếng Anh:</li>
+    <li><b>ELSA Speak:</b> Phần mềm học nói tiếng Anh</li>
+  </ul>
+</div>    
+    
+<!-- THIRD PARALLAX -->
+<div class="parallax" style="background-image: url('cpe-resources-grammarly-main.jpg')">
+  <div class="bg-text">GRAMMARLY</div>
+</div>    
+    <h2>Grammarly là gì?</h2>
+    <table style="border:none">
+    <tr><td><ul>
+      <li>Grammarly là công cụ kiểm tra, check lỗi chính tả khi bạn viết tiếng Anh. Công cụ hỗ trợ trên nhiều nền tảng, bao gồm trình duyệt, Word và Outlook , Windows và Mac và các hệ điều hành cho điện thoại. Khi bạn sử dụng Grammarly trên trình duyệt thì việc viết email bằng tiếng Anh, hay đăng bài viết tiếng Anh sẽ được kiểm tra về chính tả và ngữ pháp.</li>
+      <li>Grammarly cung cấp khả năng kiểm tra mạnh mẽ, kiểm tra chính tả theo đúng ngữ cảnh hay sử dụng các từ đã đúng hay chưa. Điều này sẽ giúp chúng ta tự tin hơn khi được Grammarly kiểm tra.</li>
+      <li>Nhà sáng lập: Max Lytvyn, Dmytro Lider, Alex Shevchenko</li>
+      <li>Ngày thành lập: 2009</li>
+      <li>Trụ sở: San Francisco, California, Hoa Kỳ</li>
+    </ul>
+    </td>
+    <td><img src="grammarly1.gif" style="max-width: 40vw; margin-right: 100px" title="Hình ảnh của Grammarly đang được sử dụng"></td>
+    </tr>
+  </table>
+    <h3>Kiểm tra lỗi chính tả</h3>
+    <p>Đây chính là tính năng cơ bản nhất của Grammarly mà bạn có thể hoàn toàn sử dụng mà không phải tốn phí. Cụ thể, Grammarly có thể phát hiện ra đến 250 lỗi chính tả thường gặp trong quá trình viết Tiếng Anh.</p>
+    <h3>Kiểm tra lỗi ngữ pháp, dấu câu</h3>
+    <p>Ngoài lỗi chính tả thì lỗi ngữ pháp câu cũng chính là một lỗi vô cùng phổ biến nhưng lại ít người phát hiện hơn lỗi chính tả. Chính vì vậy, Grammarly đủ thông minh để có thể tìm ra được các lỗ hổng trong cú pháp câu. Ngoài ra, Grammarly còn cho phép điều chỉnh lại dấu câu khi cần thiết.</p>
+    <h3>Đề xuất từ ngữ phù hợp</h3>
+    <p>Và tất nhiên là sau khi Grammarly đã phát hiện ra các lỗi chính tả và ngữ pháp trên thì sẽ đề xuất những từ ngữ thay thế sao cho phù hợp hơn. Người dùng có thể chọn sử dụng từ ngữ đề xuất đó hoặc bỏ qua nếu không đồng ý.</p>
+    <h3>Sử dụng được trên nhiều nền tảng khác nhau</h3>
+    <p>Người dùng có thể sử dụng Grammarly một cách linh hoạt và cực kỳ tiện lợi vì phần mềm này hỗ trợ đa nền tảng. Bạn có thể cài đặt phần mềm dành cho PC hoặc ứng dụng trên nền tảng Android và iOS. Ngoài ra, Grammarly vẫn có phiên bản dành cho các trình duyệt web thông dụng như Google Chrome, Microsoft Edge và Safari.</p>
+    <h3>Dễ dàng sử dụng trên Microsoft Word và Outlook</h3>
+    <p>Đối với phần mềm soạn thảo văn bản thông dụng Microsoft Word và dịch vụ email miễn phí Outlook, bạn có thể thêm Grammarly vào như một add-in cho 2 phần mềm này. Nhờ đó, người dùng có thể kiểm tra chính tả và ngữ pháp ngay trên 2 phần mềm trên mà không cần phải thông qua thêm ứng dụng thứ ba hoặc thực hiện thêm các thao tác kiểm tra bên ngoài.</p>
+    <h3>Hỗ trợ Extension trên nhiều trình duyệt</h3>
+    <p>Ngoài các phần mềm để sử dụng riêng biệt các tính năng đầy đủ của Grammarly, ứng dụng này còn hỗ trợ thêm các tiện ích tích hợp trên nhiều trình duyệt web như Chrome, Safari,… Thao tác cực kỳ đơn giản và giao diện cũng dễ sử dụng. Nhờ tiện ích Grammarly, người dùng sẽ được hỗ trợ kiểm tra chính tả và ngữ pháp khi gõ văn bản tiếng anh trên trình duyệt.</p>
 
-    Nunc tempor et lorem ac bibendum. Pellentesque et neque in arcu eleifend ullamcorper. Curabitur nunc mauris, ultricies varius arcu et, rutrum ornare risus. Fusce ut viverra risus, nec aliquet ligula. Nulla facilisi. Phasellus facilisis nibh laoreet convallis interdum. Mauris posuere tincidunt nulla sed commodo. Vivamus eu tristique arcu, at efficitur magna. Sed accumsan ligula eget facilisis ornare. Cras id ante aliquam, dignissim odio at, sagittis lacus.
-    
-    Donec molestie luctus dui sit amet auctor. In mollis scelerisque quam, ullamcorper tincidunt nulla convallis nec. Quisque velit urna, lacinia ac tellus vehicula, mollis dignissim libero. Donec aliquam nulla massa, quis molestie dui sagittis quis. Vivamus viverra eleifend urna, sed dignissim risus. Suspendisse fringilla ac nunc a rhoncus. Curabitur iaculis tempus orci quis egestas.
-    
-    Maecenas lobortis orci a scelerisque sagittis. Suspendisse malesuada tortor non consequat laoreet. Nulla facilisi. Integer luctus leo id mauris placerat elementum. Etiam nec imperdiet sapien. Vivamus eu neque et sapien mollis fringilla. In suscipit mattis tortor, id commodo nisl suscipit id. Aenean velit tellus, bibendum in eleifend in, ornare a erat. Suspendisse rutrum, arcu consectetur consequat accumsan, nulla mauris rhoncus odio, id aliquet metus nunc id orci.
-    
-    Suspendisse facilisis mollis bibendum. Mauris luctus ligula at luctus auctor. Maecenas in velit hendrerit, gravida lectus nec, ultricies mauris. Pellentesque eu mauris a orci placerat volutpat sit amet non sapien. Duis mauris ex, rhoncus sed tortor ac, euismod vestibulum sapien. Sed sed lacinia purus. Duis cursus diam vitae est mollis, placerat imperdiet urna maximus. Vestibulum pellentesque, lorem eget ornare ultrices, mauris ipsum feugiat erat, vitae sagittis velit orci quis nunc. Integer nec nisl interdum, efficitur urna vel, tincidunt urna. In tempus sollicitudin justo nec tempor. Praesent molestie metus ut nisl eleifend, in porttitor odio euismod.
-    
-    Nunc ultrices ultricies ipsum ut tempor. Cras mollis fermentum justo, eu suscipit augue dignissim ut. Quisque leo enim, suscipit sit amet euismod ac, efficitur ac turpis. Suspendisse potenti. Ut mi arcu, iaculis non sodales vitae, vehicula ut sem. Proin vitae consectetur velit. Suspendisse molestie fermentum turpis, ut finibus metus placerat eu. Nulla euismod lorem iaculis venenatis gravida. Integer non tellus magna. Fusce lacinia sapien at ipsum efficitur elementum.
-    
-    Sed laoreet nunc a odio fringilla consectetur. Phasellus blandit turpis in arcu tincidunt fringilla. Maecenas faucibus diam in iaculis ornare. Vestibulum at sapien urna. Maecenas a lacinia mauris. Nullam laoreet felis arcu, sed scelerisque magna tincidunt id. In tincidunt dolor aliquam leo consequat sodales. Cras rutrum metus at nisi pretium luctus. Sed ullamcorper in nunc nec bibendum. Fusce auctor ullamcorper leo, sit amet egestas lacus sodales in. Sed ut tellus arcu. Nam aliquet ipsum eget enim luctus malesuada. Mauris posuere mattis euismod. Proin vestibulum, ligula vitae maximus lobortis, diam magna iaculis nisi, at varius diam tellus at quam.</p>
+
+</div>
+<!-- FOURTH PARALLAX -->
+<div class="parallax" style="background-image: url('app-noi-chuyen-tieng-anh-1.webp')">
+  <div class="bg-text">ELSA SPEAK</div>
+</div>
+<h2>Elsa speak là gì?</h2>
+<p>ELSA (English Language Speech Assistant) là startup về công nghệ giáo dục tại Silicon Valley đầy triển vọng & đang tăng trưởng rất nhanh. Được thành lập vào năm 2015 bởi Văn Đinh Hồng Vũ (CEO), cùng với người bạn Bồ Đào Nha là tiến sĩ Xavier Anguera (giám đốc công nghệ – CTO), ELSA có công nghệ Trí Tuệ Nhân Tạo với khả năng học sâu (deep learning) và nhận diện giọng nói (speech recognition) độc quyền. Ứng dụng ELSA Speak là ứng dụng học nói và giao tiếp tiếng Anh gần như duy nhất có thể sửa lỗi phát âm chính xác từng âm tiết, đồng thời đưa ra nhận xét tức thì và hướng dẫn sửa lại chuẩn xác. Có trụ sở tại San Francisco, ELSA đã gọi vốn thành công 12 triệu đô từ các nhà đầu tư lớn ở Thung lũng Silicon, Đông Nam Á, Nhật Bản và 15 triệu đô từ vòng gọi vốn series B. Ứng dụng hiện có hơn 40 triệu lượt tải ở 101 quốc gia trên thế giới, và có văn phòng tại Bồ Đào Nha, Việt Nam, Ấn Độ, Indonesia và Nhật Bản.</p>
+<h2>Elsa speak có những tính năng nào nổi bật?</h2>
+<table>
+  <tr>
+    <td><img src="elsa2.png" style="max-width: 18vw; margin-left: 125px"></td>
+    <td>
+      <h3>Bài kiểm tra đầu vào</h3>
+      <p>ELSA Speak yêu cầu bạn ghi âm lại giọng của bạn khi đọc 16 câu mẫu ứng dụng cho sẵn. Khả năng thu giọng của ứng dụng rất tốt ngay cả khi không dùng tai nghe. Sau khi ghi âm mỗi câu, bạn có thể nghe lại, sau đó thu lại hoặc gửi bản thu âm đó để tiếp tục sang câu khác.
+      Sau khi hoàn thành tất cả 16 câu, ứng dụng sẽ hiện:</p>
+      <ul>
+        <li>Trình độ tổng quan của bạn. Ví dụ: trung cấp</li>
+        <li>Điểm tổng thể dựa trên phần trăm</li>
+        <li>Điểm số dựa trên phần trăm cho khả năng phát âm, độ trôi chảy, và ngữ điệu</li>
+        <li>Điểm IELTS dự đoán</li>
+        <li>Giải thích về một số âm hoặc kĩ năng kém nhất của bạn cùng với điểm số dựa trên phần trăm của chúng</li>
+      </ul>
+      <p>Tất cả các điểm số đều được tính theo tỉ lệ phần trăm và cho biết mức độ phát âm của bạn thế nào so với người bản ngữ. Bằng cách nhấp vào dấu chấm hỏi bên cạnh mỗi kĩ năng, bạn sẽ được cung cấp thêm thông tin về nó cùng với các ví dụ.</p>
+  <p>Bảng báo cáo kết quả của ELSA Speak rất chi tiết. Ứng dụng phân tích rõ ràng từng câu một và cho biết những gì bạn đang làm tốt và những gì bạn cần cải thiện.</p>
+  <p>Bạn cũng có thể xem chi tiết điểm của bạn trong trang hồ sơ. Ở đây, bạn có thể biết thêm về khả năng phát âm, độ trôi chảy, ngữ điệu, trọng âm của từ, và khả năng nghe của bạn. Điểm sẽ được cập nhật ngay khi bạn làm xong các bài tập.</p>
+</td>
+  </tr>
+</table>
+<p>Thông thường thì bạn phải luyện phát âm với một người bản ngữ hoặc giáo viên tiếng Anh. Trong trường hợp không có họ ở bên, bạn cũng có thể tự mình làm bài tập, ghi âm lại giọng nói của bản thân cũng như sửa những sai sót.</p>
+
+<p>ELSA Speak được lấy cảm hứng từ hai phương pháp trên nhưng cải thiện chúng. Ứng dụng sẽ cung cấp kết quả tức thì, cùng với đó là một mô hình tiêu chuẩn để phân tích giọng của bạn. Vì vậy, bạn không cần phải đoán xem liệu bạn có phát âm chuẩn hay không.</p>
+<p>Sau khi bạn hoàn thành bài kiểm tra đầu vào, ELSA Speak sẽ tự động tổ chức lại các bài học nhằm ưu tiên đánh mạnh vào những điểm yếu của bạn.</p>
+
+<h3>Ngân hàng từ vựng</h3>
+<p>ELSA Speak lưu tất cả những từ và cụm từ bạn đã từng gặp trong ứng dụng. Ngoài ra, ứng dụng còn tự động phân cấp những từ bạn phát âm chuẩn với những từ bạn cần cải thiện cách phát âm. Bạn cũng có thể tự thêm các từ bạn chưa thể phát âm chuẩn vào đây.</p>
+<h3>Từ điển (chỉ dành cho tài khoản Premium)</h3>
+<p>Nếu bạn dùng bản trả phí, bạn có thể dùng từ điển trong ứng dụng để tra cứu bất kì từ, cụm từ hay câu nào cũng như nghe cách phát âm của nó. Ứng dụng dùng IPA để hiển thị cách phát âm và có video về cách từ hay cụm từ đó được nói bởi người bản ngữ.</p>
 </div>
 </div>
 
@@ -152,3 +234,5 @@ body {
 
 </body>
 </html>
+
+<!-- working in pro-->
